@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          shell.cmd
-          checkout.cmd
+          cmd /c ""shell.cmd" "
+          cmd /c ""checkout.cmd" "
