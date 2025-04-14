@@ -1,0 +1,17 @@
+name: Generate chromium dist
+on:
+  push:
+    tags:
+      - 'windows-[0-9]+'
+
+permissions:
+  contents: write
+
+jobs:
+  build-1:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          shell.cmd
+          checkout.cmd
