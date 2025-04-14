@@ -13,5 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
+          dir
           cmd /c ""shell.cmd" "
           cmd /c ""checkout.cmd" "
