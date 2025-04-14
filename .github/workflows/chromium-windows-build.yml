@@ -15,4 +15,4 @@ jobs:
       - run: |
           dir
           cmd /c ""shell.cmd" "
-          cmd /c ""checkout.cmd" "
+          cmd /c ""scripts/checkout.cmd" "
